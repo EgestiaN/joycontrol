@@ -1,5 +1,11 @@
 # joycontrol
 
+Fork with vibe-coded patches to enable the program to work with modern python libraries. Tested on MacBook Air 2015 with internal Bluetooth card running Arch Linux in May 2026. Some tweaks required:
+- Downgrade bluez and bluez-libs to 5.70
+- Disable ERTM
+
+
+
 Branch: master->amiibo_edits
 
 Emulate Nintendo Switch Controllers over Bluetooth.
