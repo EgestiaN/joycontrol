@@ -353,7 +353,7 @@ if __name__ == '__main__':
     parser.add_argument('--nfc', type=str, default=None, help="amiibo dump placed on the controller. Äquivalent to the nfc command.")
     args = parser.parse_args()
 
-    loop = asyncio.get_event_loop()
+    loop = asyncio.new_event_loop()
     asyncio.set_event_loop(loop)
     loop.run_until_complete(
         _main(args)
